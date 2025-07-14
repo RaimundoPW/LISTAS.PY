@@ -21,6 +21,63 @@ body{
     letter-spacing: 2px !important;  
 }
 
+/*Main*/
+
+.list-div{
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+}
+
+/*Botão Adicionar*/
+.add-div{
+    background-color:#333 !important;
+    color: white !important;
+    border-radius: 4px !important;
+    padding: 0.5em !important;
+
+}
+
+#add-button{
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/*Barra*/
+.barra{
+    margin-top: 1em !important;
+}
+
+/*Lupa*/
+.input-group-btn{
+    border: 1px solid rgba(0, 0, 0, 0.206) !important;
+    border-radius: 5px !important;
+}
+
+/*Item*/
+.item{
+    border-bottom: 1px dotted black !important;
+    height: 2em !important;
+    font-size: 1.3em !important;
+    margin-top: 1em !important;
+}
+
+.icones{
+    text-align: end !important;
+}
+.fa.fa-edit{
+    color: green !important;
+}
+
+.fa.fa-trash{
+    color: orange !important;
+
+}
+.link{
+    text-decoration: none !important;
+}
+
+
 footer{
     background-color: #333 !important;
     border-top: 2px solid black !important;
