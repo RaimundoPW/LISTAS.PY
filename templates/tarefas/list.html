@@ -19,7 +19,7 @@
             class="form-control"
             placeholder="pesquisar"
             name="search"
-            value=""
+            value="{{request.GET.search}}"
           />
           <div class="input-group-btn">
             <button class="btn btn-default" id="search-btn" type="submit">
@@ -37,8 +37,8 @@
       <span><a class="link" href="/tarefa/{{tarefa.id}}">{{tarefa.titulo}}</a></span>
     </div>
     <div class="col-sm-2 icones">
-      <span><i class="fa fa-edit"></i></span>
-      <span><i class="fa fa-trash"></i></span>
+      <a href="edit/{{tarefa.id}}"><span><i class="fa fa-edit"></i></span></a>
+      <a href="delete/{{tarefa.id}}" class="delete_btn"><span><i class="fa fa-trash"></i></span></a>
     </div>
   </div>
   {% endfor %}

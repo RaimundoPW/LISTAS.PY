@@ -70,7 +70,7 @@ body{
 }
 
 .fa.fa-trash{
-    color: orange !important;
+    color: orangered!important;
 
 }
 .link{
@@ -81,6 +81,16 @@ body{
 footer{
     background-color: #333 !important;
     border-top: 2px solid black !important;
-    color: orange !important;
+    color: white !important;
+    text-align: center !important;
+}
+.outh-card{
+    margin-bottom: 2em !important;
+    margin-top: 2em !important;
+
+}
+
+.change-form-p{
+    margin-top: 2em !important;
     text-align: center !important;
 }
